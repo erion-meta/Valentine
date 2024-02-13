@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Body */
+body {
+  background-color: #e966a0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Div question */
+.div-ask {
+  background-color: #ffa1cf;
+  padding: 4rem;
+  border-radius: 1rem;
+}
+
+.h1-question {
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 3rem;
+  color: #d80032;
+  margin: 2rem 1rem;
+}
+
+/* Buttons */
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+button {
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+.btn-yes {
+  background-color: #ff8787;
+  border: 0.2rem solid #f5eee6;
+}
+.btn-no {
+  background-color: #fdf0d1;
+  border: 0.2rem solid #f5eee6;
+}
+
+@media only screen and (max-width: 950px) {
+  .div-ask {
+    padding: 2.5rem;
+  }
+
+  .h1-question {
+    font-size: 2.5rem;
+  }
+
+  button {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .div-ask {
+    padding: 1.8rem;
+  }
+
+  .h1-question {
+    font-size: 1.8rem;
+  }
+
+  button {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .div-ask {
+    padding: 1.5rem;
+  }
+
+  .h1-question {
+    font-size: 1.2rem;
+  }
+
+  button {
+    font-size: 1rem;
+  }
+}
