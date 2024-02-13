@@ -26,3 +26,15 @@ h1 {
   color: #d80032;
   margin: 2rem 1rem;
 }
+
+@media only screen and (max-width: 600px) {
+  .page2-h1 {
+    font-size: 2.1rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .page2-h1 {
+    font-size: 1.6rem;
+  }
+}
